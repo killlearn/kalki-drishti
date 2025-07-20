@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>संपर्क करें - Kalki Drishti</title>
+</head>
+<body>
+
+<!-- Navigation Bar कॉपी करके यहाँ भी पेस्ट करें -->
+<nav style="background-color: #222; padding: 10px;">
+  <a href="index.html" style="color: white; margin-right: 20px; text-decoration: none;">होम</a>
+  <a href="contact.html" style="color: white; text-decoration: none;">संपर्क करें</a>
+</nav>
+
+<h2>संपर्क करें</h2>
+
+<form action="mailto:kalkidristi@gmail.com" method="post" enctype="text/plain">
+  <label>नाम:</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label>ईमेल:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>संदेश:</label><br>
+  <textarea name="message" rows="5" cols="30" required></textarea><br><br>
+
+  <input type="submit" value="भेजें">
+</form>
+
+</body>
+</html>
